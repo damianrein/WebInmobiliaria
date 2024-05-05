@@ -1,0 +1,24 @@
+.sectionclass{
+    background-color: blue;
+    width: 80%;
+    display: inline-block;
+}
+.asideclass{
+    background-color: red;
+    width: 20%;
+    display: inline-block;
+}
+.ul1{
+
+}
+.li1{
+    background-color: darkgray;
+    height: 150px;
+    border: yellow solid 1px;
+    border-radius: 15px;
+    margin: 25px;
+}
+.imgli{
+    width: 120px;
+    height: 120px;
+}

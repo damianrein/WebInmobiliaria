@@ -1,0 +1,23 @@
+.headermenu{
+
+}
+.div1{
+    
+}
+.ul1{
+    width: 100%;
+    height: 300px;
+    justify-content: stretch;
+    background-image: url('https://clinmoo.com/wp-content/uploads/2018/09/transformacion-digital-inmobiliaria-e1549293833372-1130x636.jpeg');
+    text-align: right;
+}
+.li1{
+    background-color: #15069e;
+    display: inline-block;
+    padding: 7px;
+    margin: 10px;
+    border: gold solid 1px;
+    border-radius: 2em;
+    font-size: 18;
+    color: gold;
+}
