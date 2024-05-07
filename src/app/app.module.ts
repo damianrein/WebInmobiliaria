@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeadmenuComponent } from './headmenu/headmenu.component';
 import { PropertiesComponent } from './properties/properties.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeadmenuComponent,
-    PropertiesComponent
+    PropertiesComponent,
+    PageNotFoundComponent,
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

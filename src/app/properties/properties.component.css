@@ -1,18 +1,22 @@
+.super{
+    display: block;
+}
 .sectionclass{
-    background-color: blue;
+    background-color: #A6CAF0;
     width: 80%;
     display: inline-block;
 }
-.asideclass{
+.divaside{
     background-color: red;
     width: 20%;
+    height: 100%;
     display: inline-block;
 }
-.ul1{
+.asideclass{
 
 }
 .li1{
-    background-color: darkgray;
+    background-color: lightgray;
     height: 150px;
     border: yellow solid 1px;
     border-radius: 15px;
@@ -21,4 +25,7 @@
 .imgli{
     width: 120px;
     height: 120px;
+    padding: 1%;
+}
+.section2{
 }

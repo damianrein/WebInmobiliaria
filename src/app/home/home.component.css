@@ -1,0 +1,31 @@
+.principal{
+    height: 1500px;
+    width: 100%;
+    text-align: center;
+    background-color: #A6CAF0;
+}
+.h1tittle{
+    color: goldenrod;
+    font-size: 22px;
+    text-align: center;
+}
+h3{
+    color: gold;
+}
+p{
+    color: blanchedalmond;
+}
+.divoption{
+    display: inline-block;
+    text-align: center;
+    background-color: #0329ff;
+    height: 27%;
+    width: 20%;
+    margin: 1%;
+    border: darkgreen solid 1px;
+    border-radius: 1em;
+}
+.img1{
+    max-width: auto;
+    max-height: 50%;
+}
