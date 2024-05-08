@@ -49,5 +49,13 @@ table {
 /* You can add global styles to this file, and also import other style files========================================================================== */
 footer{
     height: 250px;
-    background-color: darkblue;
+    background-color: rgb(33, 33, 56);
+}
+.div-instagram{
+	text-align: center;
+}
+.img-instagram{
+	max-width: 96px;
+	max-height: 96px;
+
 }
