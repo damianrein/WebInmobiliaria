@@ -5,6 +5,7 @@ import { PropertiesComponent } from './properties/properties.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { LoginpageComponent } from './loginpage/loginpage.component';
 
 const routes: Routes = [
     {path: 'home',
@@ -15,6 +16,9 @@ const routes: Routes = [
 
      {path:'about',
      component:AboutComponent},
+
+     {path:'login',
+     component:LoginpageComponent},
 
     {path:'', 
      redirectTo:'/home',

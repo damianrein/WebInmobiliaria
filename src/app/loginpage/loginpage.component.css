@@ -1,0 +1,16 @@
+.divform{
+    width: 30%;
+    text-align: center;
+}
+.form1{
+    display: block;
+    border: red solid 1px;
+    border-radius: 1em;
+    padding: 15px;
+}
+.formelement{
+
+}
+.btnform{
+    background-color: darkgoldenrod;
+}
