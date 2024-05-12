@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { LoginpageComponent } from './loginpage/loginpage.component';
 import { ContactComponent } from './contact/contact.component';
+import { RegisterpageComponent } from './registerpage/registerpage.component';
+import { AdminPanelComponent } from './admin-panel/admin-panel.component';
 
 const routes: Routes = [
     {path: 'home',component:HomeComponent},
@@ -18,6 +20,10 @@ const routes: Routes = [
      {path:'contact',component:ContactComponent},
 
      {path:'login',component:LoginpageComponent},
+
+     {path:'register',component:RegisterpageComponent},
+
+     {path:'admin-panel',component:AdminPanelComponent},
 
     {path:'', redirectTo:'/home', pathMatch: 'full'},
 
