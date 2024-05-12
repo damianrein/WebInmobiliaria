@@ -6,26 +6,22 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { LoginpageComponent } from './loginpage/loginpage.component';
+import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
-    {path: 'home',
-     component:HomeComponent},
+    {path: 'home',component:HomeComponent},
 
-    {path:'properties',
-     component:PropertiesComponent},
+    {path:'properties',component:PropertiesComponent},
 
-     {path:'about',
-     component:AboutComponent},
+     {path:'about',component:AboutComponent},
 
-     {path:'login',
-     component:LoginpageComponent},
+     {path:'contact',component:ContactComponent},
 
-    {path:'', 
-     redirectTo:'/home',
-     pathMatch: 'full'},
+     {path:'login',component:LoginpageComponent},
 
-    {path: '**',
-     component:PageNotFoundComponent}
+    {path:'', redirectTo:'/home', pathMatch: 'full'},
+
+    {path: '**',component:PageNotFoundComponent}
 
 ];
 
