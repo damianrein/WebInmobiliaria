@@ -2,15 +2,28 @@
     height: 1500px;
     width: 100%;
     text-align: center;
-    background-color: #A6CAF0;
+    background-color: #e6e2e2;
 }
 .h1tittle{
     color: goldenrod;
     font-size: 22px;
     text-align: center;
 }
+.div-btn-card{
+    justify-content: end;
+}
+.btn-ver{
+    color: #e6e2e2;
+    font-size: 85%;
+    font-weight: bolder;
+    width: 60%;
+    height: 35px;
+    background-color: #0000e2;
+    border: #0000e2 solid 1px;
+    border-radius: 1em;
+}
 h3{
-    color: gold;
+    color: #000000;
 }
 p{
     color: blanchedalmond;
@@ -18,7 +31,7 @@ p{
 .divoption{
     display: inline-block;
     text-align: center;
-    background-color: #0329ff;
+    background-color: #ffffff;
     height: 27%;
     width: 20%;
     margin: 1%;
