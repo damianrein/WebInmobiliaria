@@ -9,8 +9,10 @@
     font-size: 22px;
     text-align: center;
 }
+.space-div{
+    height: 30%;
+}
 .div-btn-card{
-    justify-content: end;
 }
 .btn-ver{
     color: #e6e2e2;
@@ -35,8 +37,9 @@ p{
     height: 27%;
     width: 20%;
     margin: 1%;
-    border: darkgreen solid 1px;
+    border: #e6e2e2 solid 1px;
     border-radius: 1em;
+    
 }
 .img1{
     max-width: auto;
