@@ -1,5 +1,5 @@
 .principal-div{
-    background-color: #A6CAF0;
+    background-color: #e6e2e2;
 }
 .form-div{
     display: flex;
@@ -10,8 +10,8 @@
 .form-class{
     text-align: center;
     display: block;
-    background-color: #82b4eb;
-    border: gold solid 1px;
+    background-color: #ffffff;
+    border: #e6e2e2 solid 1px;
     border-radius: 1em;
     padding: 15px;
 }
@@ -21,14 +21,16 @@
 }
 .form-contact{
     padding: 35px;
-    color: gold;
-    font-size: 2em;
+    color: #000000;
+    font-size: 1.25em;
 }
 .form-contact-submit{
+    color: #e6e2e2;
+    font-size: 1.25em;
     padding: 2%;
-    width: 50%;
+    width: 90%;
     height: 100%;
-    background-color: darkgoldenrod;
-    border: black solid 3px;
+    background-color: #0000e2;
+    border: #0000e2 solid 3px;
     border-radius: 1em;
 }
