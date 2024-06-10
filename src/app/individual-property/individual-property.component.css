@@ -4,13 +4,30 @@
 }
 .div-h1{
     text-align: center;
+    font-size: 2em;
 }
 .div-pic{
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 1em;
+    padding: 2em;
 }
 .div-ul{
     text-align: center;
 }
 .div-group-li{
-
+    display: inline-flex;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 1em;
+    font-size: 1em;
+    padding: 2em;
+}
+li{
+    padding: 1em;
+    border: #e6e2e2 solid 1px;
+    border-radius: 1em;
 }

@@ -1,7 +1,7 @@
 .div-g-menu-bar{
-    background-color: #82b4eb;
+    background-color: #e6e2e2;
     padding: 20px;
-    border: blue solid 1px;
+    border: #e6e2e2 solid 1px;
     border-radius: 1em;
 }
 .ul-menu{
@@ -13,15 +13,15 @@
 }
 .li-menu{
     margin: 2em;
-    background-color: rgb(71, 137, 211);
+    background-color: #ffffff;
     display: inline-block;
-    border: gold solid 2px;
+    border: #ffffff solid 2px;
     border-radius: 1em;
 }
 a{
     font-size: 1.3em;
     padding: 2em;
-    color: gold;
+    color: #000000;
 }
 table {
     width: 100%;
