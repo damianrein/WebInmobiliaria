@@ -9,11 +9,14 @@ import { LoginpageComponent } from './loginpage/loginpage.component';
 import { ContactComponent } from './contact/contact.component';
 import { RegisterpageComponent } from './registerpage/registerpage.component';
 import { AdminPanelComponent } from './admin-panel/admin-panel.component';
+import { IndividualPropertyComponent } from './individual-property/individual-property.component';
 
 const routes: Routes = [
     {path: 'home',component:HomeComponent},
 
     {path:'properties',component:PropertiesComponent},
+
+    {path: 'properties-individual', component:IndividualPropertyComponent},
 
      {path:'about',component:AboutComponent},
 

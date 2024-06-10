@@ -12,6 +12,7 @@ import { LoginpageComponent } from './loginpage/loginpage.component';
 import { ContactComponent } from './contact/contact.component';
 import { AdminPanelComponent } from './admin-panel/admin-panel.component';
 import { RegisterpageComponent } from './registerpage/registerpage.component';
+import { IndividualPropertyComponent } from './individual-property/individual-property.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { RegisterpageComponent } from './registerpage/registerpage.component';
     LoginpageComponent,
     ContactComponent,
     AdminPanelComponent,
-    RegisterpageComponent
+    RegisterpageComponent,
+    IndividualPropertyComponent
   ],
   imports: [
     BrowserModule,
