@@ -33,25 +33,24 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+            <tr *ngFor="let property of properties">
+                <td>{{property.Id}}</td>
+                <td>{{property.Tipo}}</td>
+                <td>{{property.Ciudad}}</td>
+                <td>{{property.M2}}</td>
+                <td>{{property.M2Cubiertos}}</td>
+                <td>{{property.Ambientes}}</td>
+                <td>{{property.Habitaciones}}</td>
+                <td>{{property.Banos}}</td>
+                <td>{{property.Cochera}}</td>
+                <td>{{property.Quincho}}</td>
+                <td>{{property.Parrilla}}</td>
+                <td>{{property.Pileta}}</td>
+                <td>{{property.Direccion}}</td>
+                <td>{{property.Barrio}}</td>
+                <td>{{property.Contrato}}</td>
+                <td>{{property.Estado}}</td>
+                <td>{{property.Visitas}}</td>
             </tr>
         </tbody>
     </table>
